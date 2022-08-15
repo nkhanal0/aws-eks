@@ -18,3 +18,10 @@
 * Spent some time looking into EKS cluster as I had never worked with it with terraform. 
 * I assumed this is some kind of airgapped environment and was a little confused on the wordings.
 
+# How to Run?
+It is expected that we have a iam user with admin permissions and the secret/access key. Once that is available please run. 
+* `aws configure`
+* `terraform init`
+* `terraform plan`
+* `terraform apply`
+
